@@ -14,7 +14,7 @@ export default {
     methods: {
         beforeCreate() {
             console.log(getAllProducts('test-collection'));
-            return this.$api.get('products')
+            return this.getAllProducts('test-collection')
             .then(r => {
                 this.products = r.data
             })
