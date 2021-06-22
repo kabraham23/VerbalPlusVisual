@@ -1,0 +1,10 @@
+theme:
+  password: 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
+  theme_id: "124134719659"
+  store: katie-abraham-code-challenge.myshopify.com
+  ignore_files:
+    - settings_data.json
+    - src
+    - node_modules
+    - package.json
+    - package-lock.json
